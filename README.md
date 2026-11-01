@@ -84,5 +84,4 @@ clasificados/    ──► visor.py          ──► consulta del catálogo
 
 ## Notas
 
-- `visor.py` tiene **rutas absolutas de Windows** escritas en el código (`ARCHIVO_TXT` y `CARPETA_BASE`, al inicio del archivo). Ajústelas a su equipo antes de usarlo.
 - `clasificador_V2.py` **mueve** las fotos (no las copia). Conviene trabajar sobre una copia si quiere conservar la carpeta original.

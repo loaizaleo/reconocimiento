@@ -3,9 +3,9 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 
-# Rutas fijas (modifícalas si cambian de ubicación)
-ARCHIVO_TXT = r"C:\Users\hp\Documents\Ingenieria_Analítica_Datos_UM\reconocimiento-img\categorias_codigoV2.txt"
-CARPETA_BASE = r"C:\Users\hp\Documents\Ingenieria_Analítica_Datos_UM\reconocimiento-img\clasificados"
+# Rutas relativas a la carpeta desde donde se ejecuta (igual que clasificador y registrador)
+ARCHIVO_TXT = "categorias_codigoV2.txt"
+CARPETA_BASE = "clasificados"
 
 # Extensiones de imagen válidas
 EXTENSIONES_VALIDAS = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp')
